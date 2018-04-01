@@ -1,0 +1,30 @@
+.tableWrap{
+    width:100%;
+    text-align:center;
+    border: #ff0;
+}
+
+.tableWrap th{
+    background-color: pink;
+    height: 30px;
+
+}
+.tableWrap th:nth-child(1){
+    width: 10%;
+}
+
+.tableWrap p{
+    width: 20%;
+    float: left;
+    margin-bottom:  5px !important;
+}
+.tableWrap td:nth-child(1) p{
+    width: 100%;
+    float: none;
+}
+.tableWrap a{
+    color: #777  !important;
+}
+.tableWrap a:hover{
+    color:orange !important;
+}
